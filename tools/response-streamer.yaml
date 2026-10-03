@@ -1,0 +1,14 @@
+name: "response-streamer"
+description: "Streams aggregated tokens and execution events from delegated worker agents back to client."
+input_schema:
+  type: "object"
+  properties:
+    stream_id:
+      type: "string"
+      description: "Identifier for the active output stream."
+    chunk:
+      type: "string"
+      description: "Text chunk or event payload to emit."
+  required:
+    - "stream_id"
+    - "chunk"

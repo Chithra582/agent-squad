@@ -1,0 +1,14 @@
+name: "squad-router"
+description: "Routes user requests to specialized worker agents based on computed confidence scores."
+input_schema:
+  type: "object"
+  properties:
+    agent_id:
+      type: "string"
+      description: "Target specialized agent identifier."
+    payload:
+      type: "object"
+      description: "Dispatched payload including prompt and conversation context."
+  required:
+    - "agent_id"
+    - "payload"

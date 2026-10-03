@@ -1,0 +1,21 @@
+spec_version: "0.1.0"
+name: "agent-squad"
+version: "1.0.0"
+description: "Intelligent multi-agent orchestration and conversation routing framework coordinating specialized AI agents across Python, TypeScript, and Swift runtimes."
+author: "2fastlabs <maintainers@2fastlabs.com>"
+license: "Apache-2.0"
+metadata:
+  domain: "Multi-Agent Conversation Routing & Orchestration"
+  category: "Developer Tools"
+  framework: "Agent Squad"
+  language: "Python / TypeScript / Swift"
+skills:
+  - "multi-agent-routing"
+  - "intent-classification"
+  - "conversation-state-persistence"
+  - "cross-agent-tool-delegation"
+tools:
+  - "intent-classifier"
+  - "squad-router"
+  - "context-manager"
+  - "response-streamer"

@@ -1,0 +1,15 @@
+name: "intent-classifier"
+description: "Classifies user intent and message context to determine the optimal target agent in the squad."
+input_schema:
+  type: "object"
+  properties:
+    query:
+      type: "string"
+      description: "User query or message text."
+    history:
+      type: "array"
+      items:
+        type: "object"
+      description: "Recent conversation turn history."
+  required:
+    - "query"

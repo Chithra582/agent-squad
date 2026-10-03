@@ -1,0 +1,18 @@
+name: "context-manager"
+description: "Manages conversation sessions, message memory, and state synchronization across multiple agents."
+input_schema:
+  type: "object"
+  properties:
+    session_id:
+      type: "string"
+      description: "Unique conversation session identifier."
+    action:
+      type: "string"
+      enum:
+        - "get"
+        - "append"
+        - "clear"
+      description: "Context operation to perform."
+  required:
+    - "session_id"
+    - "action"
